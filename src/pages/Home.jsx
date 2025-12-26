@@ -13,7 +13,7 @@ import YouMightNeed from "../components/home/YouMightNeed";
 export default function Home() {
   return (
     <>
-      <main className="container mx-auto px-4 py-6 space-y-12">
+      <main className="container mx-auto px-3 py-6 space-y-12">
         <HeroSection />
         <CategoryGrid />
         <YouMightNeed />
