@@ -24,7 +24,6 @@ const STORES = [
 function StoreCard({ name, time, color, logo }) {
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer group h-full border border-gray-100">
-      {/* Top Color Part */}
       <div className={`${color} h-28 relative overflow-hidden`}>
         <div
           className="absolute inset-0 opacity-10"
@@ -41,7 +40,6 @@ function StoreCard({ name, time, color, logo }) {
         </div>
       </div>
 
-      {/* Bottom White Part */}
       <div className="p-4 pt-8">
         <h3 className="font-bold text-base text-gray-800 line-clamp-1">
           {name}

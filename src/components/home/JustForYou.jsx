@@ -1,7 +1,6 @@
 export default function JustForYou() {
   return (
     <section>
-      {/* Header */}
       <div className="flex justify-between items-end mb-8">
         <h2 className="text-3xl md:text-4xl font-extrabold text-primary">
           Just for you
@@ -12,9 +11,7 @@ export default function JustForYou() {
         </a>
       </div>
 
-      {/* Products Grid */}
       <div className="flex overflow-x-auto pb-4 gap-4 snap-x hide-scrollbar sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 sm:gap-6 sm:pb-0">
-        {/* CARD 1 */}
         <div className="min-w-[160px] md:min-w-[200px] snap-start bg-card-light dark:bg-card-dark rounded-2xl p-3 md:p-4 shadow-sm hover:shadow-lg transition flex flex-col items-center text-center group h-full justify-between">
           <div>
             <div className="h-32 md:h-40 flex items-center justify-center mb-3 md:mb-4">
@@ -41,7 +38,6 @@ export default function JustForYou() {
           </div>
         </div>
 
-        {/* CARD 2 */}
         <div className="min-w-[160px] md:min-w-[200px] snap-start bg-card-light dark:bg-card-dark rounded-2xl p-3 md:p-4 shadow-sm hover:shadow-lg transition flex flex-col items-center text-center group h-full justify-between">
           <div>
             <div className="h-32 md:h-40 flex items-center justify-center mb-3 md:mb-4">
@@ -68,7 +64,6 @@ export default function JustForYou() {
           </div>
         </div>
 
-        {/* CARD 3 */}
         <div className="min-w-[160px] md:min-w-[200px] snap-start bg-card-light dark:bg-card-dark rounded-2xl p-3 md:p-4 shadow-sm hover:shadow-lg transition flex flex-col items-center text-center group h-full justify-between">
           <div>
             <div className="h-32 md:h-40 flex items-center justify-center mb-3 md:mb-4">
@@ -95,7 +90,6 @@ export default function JustForYou() {
           </div>
         </div>
 
-        {/* CARD 4 */}
         <div className="min-w-[160px] md:min-w-[200px] snap-start bg-card-light dark:bg-card-dark rounded-2xl p-3 md:p-4 shadow-sm hover:shadow-lg transition flex flex-col items-center text-center group h-full justify-between">
           <div>
             <div className="h-32 md:h-40 flex items-center justify-center mb-3 md:mb-4">
@@ -122,7 +116,6 @@ export default function JustForYou() {
           </div>
         </div>
 
-        {/* CARD 5 */}
         <div className="min-w-[160px] md:min-w-[200px] snap-start bg-card-light dark:bg-card-dark rounded-2xl p-3 md:p-4 shadow-sm hover:shadow-lg transition flex flex-col items-center text-center group h-full justify-between">
           <div>
             <div className="h-32 md:h-40 flex items-center justify-center mb-3 md:mb-4">

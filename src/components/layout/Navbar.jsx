@@ -4,7 +4,6 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 shadow-md bg-primary text-white py-3 px-4 md:px-8 border-b border-primary/10">
       <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-        {/* Left: Menu & Logo */}
         <div className="flex items-center gap-4">
           <button className="p-2 hover:bg-white/10 rounded-lg transition-colors">
             <span className="material-icons-round text-2xl">menu</span>
@@ -18,7 +17,6 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Center: Search Bar */}
         <div className="flex-1 max-w-2xl hidden md:block">
           <div className="relative">
             <input
@@ -32,7 +30,6 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Right: Actions */}
         <div className="flex items-center gap-6">
           <div className="hidden lg:flex items-center gap-1 text-xs font-medium text-secondary">
             <span className="material-icons-round text-sm">bolt</span>

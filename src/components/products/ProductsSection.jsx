@@ -16,8 +16,6 @@ const PRODUCTS = [
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCLy-uCN9WCD47M6jH8HqJ7qXgTqK5tQ8E1X5qD8rG9Z3lF0kI2J7mN4oP6Q2R9S5T8U1V4W3X7Y6Z0aB9C8dE-fH1gI2JkL3mO4n5pQ6rS7tU8V9W0xY1zA2bC3dE4fG5hI6jK7lM8nO9pQ0rS1tU2V3W4X5Y6Z7",
   },
-  // Using placeholders for now, in real app would use distinct images.
-  // Modifying one to be visibly different for testing.
   {
     name: "Szam amm",
     unit: "Process food",
@@ -40,11 +38,6 @@ const PRODUCTS = [
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCLy-uCN9WCD47M6jH8HqJ7qXgTqK5tQ8E1X5qD8rG9Z3lF0kI2J7mN4oP6Q2R9S5T8U1V4W3X7Y6Z0aB9C8dE-fH1gI2JkL3mO4n5pQ6rS7tU8V9W0xY1zA2bC3dE4fG5hI6jK7lM8nO9pQ0rS1tU2V3W4X5Y6Z7",
   },
 ];
-
-// Note: I am reusing the same image URL for placeholders as I don't have separate valid URLs for the items.
-// I will try to use conditional rendering or different placeholders if I had them.
-// For now, I will use a generic placeholder service for variety if I can, or just keep them same.
-// Actually, let's use a placeholder service for variety in the artifact.
 
 const PRODUCTS_MOCK = [
   {

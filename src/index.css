@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
+:root {
+  color-scheme: light;
+}
+
 @theme {
-  --color-primary: #0f4c3a; /* Deep green from image */
-  --color-secondary: #d4e157; /* Lime green */
+  --color-primary: #0f4c3a;
+
+  --color-secondary: #d4e157;
+
   --color-secondary-hover: #c0ca33;
   --color-accent: #ff9800;
   --color-bg-page: #f8f9fa;
@@ -21,11 +27,10 @@
   }
 }
 
-/* Hide Scrollbar but allow scrolling */
 .hide-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .hide-scrollbar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari and Opera */
+  display: none;
 }
